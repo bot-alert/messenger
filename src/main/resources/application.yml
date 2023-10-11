@@ -1,0 +1,12 @@
+spring:
+  web:
+  datasource:
+    url: jdbc:mysql://localhost:3306/chat_db
+    username: root
+    password: Ashish123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    generate-ddl: true
+    open-in-view: false
+  hibernate:
+    ddl-auto: drop
