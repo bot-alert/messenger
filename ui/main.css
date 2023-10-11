@@ -1,0 +1,17 @@
+/* Adjust the width of labels and inputs to fit on the same line */
+.form-row {
+    margin-bottom: 10px; /* Add spacing between rows if needed */
+    display: flex;
+    align-items: center;
+  }
+  
+  .form-row label {
+    width: 100px; /* Adjust the width of labels as needed */
+    text-align: right;
+    margin-right: 10px; /* Add spacing between label and input if needed */
+  }
+  
+  .form-row input {
+    flex: 1; /* Allow the input to expand and fill available space */
+  }
+  
